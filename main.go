@@ -220,7 +220,7 @@ func newApp() *App {
 	_ = godotenv.Load()
 
 	dsn := fmt.Sprintf(
-		"host=%s port=%s user=%s password=%s dbname=%s sslmode=disable",
+		"host=%s port=%s user=%s password=%s dbname=%s sslmode=require",
 		getenv("DB_HOST", "localhost"),
 		getenv("DB_PORT", "5432"),
 		getenv("DB_USER", "postgres"),
