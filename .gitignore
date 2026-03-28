@@ -1,0 +1,7 @@
+urlshortener
+*.exe
+.env
+vendor/
+.idea/
+.vscode/
+*.swp
