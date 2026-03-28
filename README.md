@@ -288,4 +288,4 @@ MIT
 Built with ❤️ using Go
 
 
-**Need help?** Check the logs or open an issue!
+**Need help?** Check the logs or open an issue
